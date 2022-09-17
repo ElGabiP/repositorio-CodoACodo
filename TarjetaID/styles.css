@@ -1,0 +1,30 @@
+
+h1{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+}
+
+.text {
+    font-family: 'Corben', serif;
+    font-size: 16px;
+    text-align: center;
+    background-image: radial-gradient(ellipse, rgb(255, 255, 255,.7) 19%, rgb(255, 255, 255,.0) 70%);
+    background-size: 100% 60% no-repeat;
+}
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    font-size: .7em;
+    background-color:  rgba(255,255,255,.7);
+}
+
+body{
+    background-color:#F0E889;
+    background-image: url("profe1.webp");
+    background-position: right 20%;
+    background-repeat: no-repeat;
+}
