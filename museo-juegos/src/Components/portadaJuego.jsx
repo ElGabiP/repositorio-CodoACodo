@@ -1,16 +1,19 @@
 import './portadaJuego.css';
 
-function PortadaJuego ({juego}){
+import { Link } from 'react-router-dom';
 
-const imgUrl = './assets' + juego.pantalla_presentacion
-   
-return(
-    <li className='portadaJuego'>
-        <img className='portadaImagen' src={imgUrl} alt={juego.titulo} title={juego.titulo}/>
-        <div>{juego.titulo}</div>
-    </li>
-    
-)
+
+function PortadaJuego({ juego }) {
+
+    const imgUrl = './assets' + juego.pantalla_presentacion
+
+    return (
+        <li className='portadaJuego'>
+            <Link to={`/juego/${juego.id}`}><img className='portadaImagen' src={imgUrl} alt={juego.titulo} title={juego.titulo} /></Link>
+            <div>{juego.titulo}</div>
+        </li>
+
+    )
 
 }
 

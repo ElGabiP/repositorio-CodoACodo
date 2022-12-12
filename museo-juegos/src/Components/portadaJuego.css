@@ -2,8 +2,6 @@
     list-style: none;
     font-size: 1.3rem;
     text-align: center;
-    margin: .5rem auto;
-
 }
 
 .portadaImagen {
@@ -27,7 +25,7 @@
 
 @media (max-width:560px) {
     .portadaImagen {
-        width: 90%;
+        width: 80%;
         height: auto;
 
     }
